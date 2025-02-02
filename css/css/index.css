@@ -1,3 +1,19 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "국립박물관";
+  src: url("/fonts/국립박물관문화재단클래식B.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "국립박물관";
+  src: url("/fonts/국립박물관문화재단클래식L.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "국립박물관";
+  src: url("/fonts/국립박물관문화재단클래식M.ttf") format("truetype");
+  font-weight: 400;
+}
 * {
   transition-duration: 0.8s;
   padding: 0;
@@ -12,7 +28,7 @@ body {
   display: none;
 }
 
-.widrh {
+.width {
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -24,12 +40,75 @@ body {
   font-size: 32px;
   text-align: center;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .section:nth-child(1) {
-  background-color: #ff9999;
+  background: url(/img/main_banner.png) center/cover no-repeat;
+}
+.section:nth-child(1) .main1 {
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-duration: 3s;
+  animation-delay: 1.2s;
+}
+.section:nth-child(1) .main1 img {
+  width: 100%;
+  display: block; /* inline 요소 특성 제거 */
 }
 .section:nth-child(2) {
-  background-color: #ffcc99;
+  background-color: #ffffff;
+  display: flex;
+}
+.section:nth-child(2) .greetings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+.section:nth-child(2) .greetings-img {
+  max-width: 540px;
+}
+.section:nth-child(2) .greetings-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section:nth-child(2) .greetings .divider {
+  width: 2px; /* 길이 */
+  height: 700px; /* 두께 */
+  background-color: #E1E1E1; /* 색상 */
+  margin: 20px 0; /* 위아래 여백 (선택 사항) */
+}
+.section:nth-child(2) .greetings-text {
+  position: relative;
+  max-width: 540px;
+  width: 100%;
+  background: #F6F6F6;
+  font-family: "국립박물관", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #666666;
+  line-height: 2rem;
+  padding: 10px 10px;
+}
+.section:nth-child(2) .greetings-text p {
+  text-align: justify;
+}
+.section:nth-child(2) .greetings-text .imgbox {
+  max-width: 158px;
+  margin-top: 50px;
+  margin-left: auto;
+}
+.section:nth-child(2) .greetings-text .imgbox img {
+  display: block;
+}
+.section:nth-child(2) .greetings-text .greetings-stamp {
+  position: absolute;
+  top: -100px;
+  right: -130px;
 }
 .section:nth-child(3) {
   background-color: #ffff99;
