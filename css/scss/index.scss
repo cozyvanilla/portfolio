@@ -56,6 +56,7 @@ body {
             gap: 100px;
             &-img {
                 max-width: 540px;
+                margin-top: -30px;
                 img {
                     object-fit: cover;
                 }
@@ -67,6 +68,7 @@ body {
                 margin: 20px 0;      /* 위아래 여백 (선택 사항) */
             }
             &-text {
+                margin-top: 10px;
                 position: relative;
                 max-width: 540px;
                 width: 100%;
@@ -75,10 +77,12 @@ body {
                 font-weight: 300;
                 font-size: 16px;
                 color: #666666;
-                line-height: 2rem;
-                padding: 10px 10px;
+                line-height: 1.7rem;
+                letter-spacing: -1px;
+                padding-bottom: 40px;
                 p {
                     text-align: justify;
+                    padding-top: 20px;
                 }
                 .imgbox {
                     max-width: 158px;
@@ -87,6 +91,10 @@ body {
                     img {
                         display: block;
                     }
+                }
+                p, .imgbox {
+                    animation-duration: 3s; 
+                    animation-delay: 3s;
                 }
 
                 .greetings-stamp {
