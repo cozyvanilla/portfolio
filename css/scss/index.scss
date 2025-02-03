@@ -1,4 +1,4 @@
-@import "../scss/fonts";
+@use "../scss/fonts";
 * {
     transition-duration: 0.8s;
     padding: 0;
@@ -108,7 +108,65 @@ body {
         }
 
     } // 주황 계열
-    &:nth-child(3) { background-color: #ffff99; } // 노랑 계열
+    &:nth-child(3) { 
+        background: url(/img/art_bg.png) no-repeat center/cover;
+
+    .art {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        img {
+            max-width: 770px;
+            height: 1000px;
+            }
+        &_txt{
+            max-width: 808px;
+            width: 100%;
+            height: 418px;
+            padding-top: 70px;
+            padding-bottom: 80px;
+            background: #fff;
+            padding-right: 60px;
+            color: #666666;
+
+            span {
+                font-family: "Cafe24Behappy", sans-serif ;
+                text-align: left;
+                display: block;
+                margin-bottom: 20px;
+                border-bottom: 2px solid #666666;
+                width: 67px;
+            }
+            h1 {
+                font-family: "국립박물관", sans-serif ;
+                font-weight: 500;
+                font-size: 50px;
+                text-align: left;
+                margin-bottom: 20px;
+                margin-top: 60px;
+                line-height: 1.4em;
+                
+            }
+            h5 {
+                font-family: "국립박물관", sans-serif ;
+                font-weight: 300;
+                font-size: 20px;
+                text-align: right;
+                margin-bottom: 100px;
+                line-height: 1.4em;
+            }
+            p{
+                font-family: 'D2Coding', sans-serif;
+                font-weight: 400;
+                font-size: 20px;
+                text-align: left;
+                line-height: 1.6em;
+            }
+        }
+        }
+    
+    } // 노랑 계열
     &:nth-child(4) { background-color: #ccff99; } // 연두 계열
     &:nth-child(5) { background-color: #99ccff; } // 파랑 계열
     &:nth-child(6) { background-color: #cc99ff; } // 보라 계열
