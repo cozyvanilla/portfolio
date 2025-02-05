@@ -363,7 +363,7 @@ body {
   background: url(/img/review_bg.png) no-repeat center/cover;
   position: relative;
 }
-.section:nth-child(7) .review h1 {
+.section:nth-child(7) h1 {
   position: absolute;
   top: 0;
   left: 810px;
@@ -374,81 +374,31 @@ body {
   color: #666666;
   letter-spacing: 3px;
 }
-.section:nth-child(7) .review .reviewbox .review1 {
+.section:nth-child(7) .reviewbox {
+  width: 100%;
+  background-color: #00c3ff;
+}
+.section:nth-child(7) .reviewbox .review-text {
+  width: 100%;
   margin-bottom: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 20px;
 }
-.section:nth-child(7) .review .reviewbox .review1 span {
-  font-weight: bold;
-}
-.section:nth-child(7) .review .reviewbox .review1 p {
+.section:nth-child(7) .reviewbox .review-text p {
+  width: 100%;
   font-family: "D2Coding", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.5rem;
-  border-bottom: 2px solid #666666;
   padding-bottom: 10px;
   color: #666666;
-}
-.section:nth-child(7) .review .reviewbox .review2 {
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-.section:nth-child(7) .review .reviewbox .review2 span {
-  font-weight: bold;
-}
-.section:nth-child(7) .review .reviewbox .review2 p {
-  font-family: "D2Coding", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.5rem;
   border-bottom: 2px solid #666666;
-  padding-bottom: 10px;
-  color: #666666;
 }
-.section:nth-child(7) .review .reviewbox .review3 {
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-.section:nth-child(7) .review .reviewbox .review3 span {
-  font-weight: bold;
-}
-.section:nth-child(7) .review .reviewbox .review3 p {
-  font-family: "D2Coding", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.5rem;
-  border-bottom: 2px solid #666666;
-  padding-bottom: 10px;
-  color: #666666;
-}
-.section:nth-child(7) .review .reviewbox .review4 {
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-.section:nth-child(7) .review .reviewbox .review4 span {
-  font-weight: bold;
-}
-.section:nth-child(7) .review .reviewbox .review4 p {
-  font-family: "D2Coding", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.5rem;
-  border-bottom: 2px solid #666666;
-  padding-bottom: 10px;
-  color: #666666;
+.section:nth-child(7) .reviewbox .review-text img {
+  width: 94px;
+  height: 94px;
+  margin: 0 10px;
 }
 
 .section:nth-child(8) {
