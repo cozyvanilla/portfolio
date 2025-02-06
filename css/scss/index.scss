@@ -1,4 +1,6 @@
 @use "../scss/fonts";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
 * {
     transition-duration: 0.8s;
     padding: 0;
@@ -46,7 +48,7 @@ body {
             }
         }
     } 
-}// 빨간 계열
+}// 홈,메인
 .section {
     &:nth-child(2) { background-color: #ffffff; 
         display: flex;
@@ -110,7 +112,7 @@ body {
         }
 
     }
- } // 주황 계열
+ } // 인사말
  .section {
     &:nth-child(3) { 
         background: url(/img/art_bg.png) no-repeat center/cover;
@@ -175,7 +177,7 @@ body {
         }
     
     }
- } // 노랑 계열
+ } // 전시1/나무
  .section {   
  &:nth-child(4) {background: url(/img/art_bg.png) no-repeat center/cover;
         .art2 {
@@ -238,7 +240,7 @@ body {
             }
             }
     } 
-}// 연두 계열
+}// 전시2/백일홍
 .section {
 &:nth-child(5) {background: url(/img/art_bg.png) no-repeat center/cover;
         .art3 {
@@ -302,13 +304,15 @@ body {
             }
     
     } 
-}// 파랑 계열
+}// 전시3/작약
 .section {    
 &:nth-child(6) { background-color: #E5E5EF;
     .other {
         padding-top: 40px;
     &_art{
     ul {
+        width: 100%;
+        justify-content: center;
         display: flex;
         gap: 20px;
 
@@ -349,14 +353,14 @@ body {
     } 
     }
  } 
-}// 보라 계열
+}// 마무리 인사
 .section {  
     &:nth-child(7) { background: url(/img/review_bg.png)no-repeat center/cover;
         position: relative;
         h1 {
             position: absolute;
             top: 0;
-            left: 810px;
+            left: 855px;
             font-size: 48px;
             font-family: "국립박물관", sans-serif ;
             font-weight: 500;
@@ -366,7 +370,6 @@ body {
         }
         .reviewbox {
             width: 100%;
-            background-color: #00c3ff;
             .review-text {
                 width: 100%;
                 margin-bottom: 50px;
@@ -379,9 +382,11 @@ body {
                     font-weight: 400;
                     font-size: 24px;
                     line-height: 1.5rem;
-                    padding-bottom: 10px;
                     color: #666666;
-                    border-bottom: 2px solid #666666;
+                    text-decoration: underline solid;
+                    text-underline-position: under;
+                    text-underline-offset: 10px;
+                    text-decoration-color: #666666;
                 }
 
                 img {
@@ -390,21 +395,62 @@ body {
                     margin: 0 10px;
                 }
             }
-            // .review-text:nth-child(1) {
-            //     p:nth-child(1){
-            //         borw
-            //         // border-bottom-width: 100px !important;
-            //         // border-width: 100px !;
-            //         border-bottom: 2px solid #666666;
-            //     }
-            // }
+        
         }       
     }
-}// 회색 계열
+}// 리뷰
 
 .section {  
-    &:nth-child(8) { background-color: #000764; } 
-}// 남색 계열
+    &:nth-child(8) { background-color: #ffffff; 
+    .interview {
+        .interview_box{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+
+            .interview_txt{
+                width: 720px;
+                height: 640px;
+                padding: 50px;
+                background: #f8f7f7;
+                text-align: left;
+
+                .subject {
+                    display: flex;
+                    width: 100%;
+                    align-items: center;
+                    gap: 10px;
+                    margin-bottom: 20px;
+                    img{
+                        width: 40px;
+                        height: 40px;
+                    }
+                    h5 {
+                        font-family: 'D2Coding', sans-serif;
+                        font-weight: 700;
+                        font-size: 23px;
+                        color: #666666;
+                        line-height: 1.4rem;
+                        margin-top: 10px;
+                    }
+                    }
+
+                p {
+                    font-family: "Noto Sans KR", serif;
+                    font-weight: 400;
+                    font-size: 17px;
+                    margin-bottom: 30px;
+                    line-height: 1.5rem;
+                    color: #666666;
+                }
+            }
+
+        }
+    }
+    } 
+}// 인터뷰
 
 .section {  
     &:nth-child(9) { background-color: #ffc2f5; } 
