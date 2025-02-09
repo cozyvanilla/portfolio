@@ -1,24 +1,23 @@
 {
-    "liveSassCompile.settings.formats":[
-
-    {
-        "format": "expanded",
-        "extensionName": ".css",
-        "savePath": "~/../css"
-    },
-    // More Complex
-    // {
-    //     "format": "compressed",
-    //     "extensionName": ".min.css",
-    //     "savePath": "~/../css"
-    // }
-],
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css"
+        }
+        // More Complex
+        // {
+        //     "format": "compressed",
+        //     "extensionName": ".min.css",
+        //     "savePath": "~/../css"
+        // }
+    ],
     "liveSassCompile.settings.generateMap": false,
     "liveSassCompile.settings.includeItems": ["/css/scss/*.scss"]
     // css 안에 scss 안에있는 .scss 파일 컴파일러함
 
     // "liveSassCompile.settings.excludeList": [
-	// 	"**/node_modules/**",
-	// 	".vscode/**"
-	// ]
+    // 	"**/node_modules/**",
+    // 	".vscode/**"
+    // ]
 }
