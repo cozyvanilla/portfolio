@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap");
 @font-face {
   font-family: "국립박물관";
   src: url("/fonts/국립박물관문화재단클래식B.ttf") format("truetype");
@@ -452,7 +453,188 @@ body {
 }
 
 .section:nth-child(9) {
-  background-color: #ffc2f5;
+  background-color: #ffffff;
+}
+.section:nth-child(9) .product_wrap > h2 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Purple Purse", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #666666;
+}
+.section:nth-child(9) .product_wrap .product_inner {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section:nth-child(9) .product_wrap .product_inner .line1 {
+  position: absolute;
+  top: 18%;
+  left: 33%;
+  width: 2px;
+  height: 690px;
+  background-color: #666666;
+}
+.section:nth-child(9) .product_wrap .product_inner .line2 {
+  position: absolute;
+  top: 18%;
+  left: 67%;
+  width: 2px;
+  height: 690px;
+  background-color: #666666;
+}
+.section:nth-child(9) .product_wrap .product_inner .line3 {
+  position: absolute;
+  top: 56%;
+  left: 0%;
+  width: 1700px;
+  height: 2px;
+  background-color: #666666;
+}
+.section:nth-child(9) .product_wrap .product_inner .product {
+  width: 32%;
+  padding: 10px;
+  text-align: left;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .product01_imgBg {
+  position: relative;
+  width: 450px;
+  height: 306px;
+  background: url(/img/product01.jpg) no-repeat center/contain;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .product01_imgBg:hover .prouduct_txt {
+  opacity: 1;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .product02_imgBg {
+  position: relative;
+  width: 450px;
+  height: 306px;
+  background: url(/img/product02.png) no-repeat center/contain;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .product02_imgBg:hover .prouduct_txt {
+  opacity: 1;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .product03_imgBg {
+  position: relative;
+  width: 450px;
+  height: 306px;
+  background: url(/img/product03.jpg) no-repeat center/contain;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .product03_imgBg .prouduct_txt3 {
+  display: flex;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  font-family: "D2Coding", sans-serif;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .product03_imgBg:hover .prouduct_txt3 {
+  opacity: 1;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .product04_imgBg {
+  position: relative;
+  width: 450px;
+  height: 306px;
+  background: url(/img/product04.jpg) no-repeat center/contain;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .product04_imgBg .prouduct_txt {
+  height: 99px;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .product04_imgBg:hover .prouduct_txt {
+  opacity: 1;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .product05_imgBg {
+  position: relative;
+  width: 450px;
+  height: 306px;
+  background: url(/img/product05.jpg) no-repeat center/contain;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .product05_imgBg:hover .prouduct_txt {
+  opacity: 1;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .product06_imgBg {
+  position: relative;
+  width: 450px;
+  height: 306px;
+  background: url(/img/product06.png) no-repeat center/contain;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .product06_imgBg:hover .prouduct_txt {
+  opacity: 1;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .prouduct_txt {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.04);
+  padding: 20px;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .prouduct_txt p {
+  font-family: "D2Coding", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .prouduct_txt h5, .section:nth-child(9) .product_wrap .product_inner .product .prouduct_txt h6 {
+  font-family: "D2Coding", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .prouduct_txt .btn {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  font-family: "D2Coding", sans-serif;
+  font-weight: 400;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .prouduct_txt .btn .new {
+  width: 31px;
+  height: 11.07px;
+  background: #8A81D6;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 3px 10px;
+  line-height: 11.07px;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .prouduct_txt .btn .best {
+  width: 31px;
+  height: 11.07px;
+  background: #473BB2;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 3px 10px;
+  line-height: 11.07px;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .prouduct_txt .btn .recommend {
+  width: 31px;
+  height: 11.07px;
+  background: #9F9F9F;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 3px 10px;
+  line-height: 11.07px;
+}
+.section:nth-child(9) .product_wrap .product_inner .product .prouduct_txt .btn .renewal {
+  width: 40px;
+  height: 11.07px;
+  background: #D681AD;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 3px 10px;
+  line-height: 11.07px;
 }
 
 .section:nth-child(10) {
