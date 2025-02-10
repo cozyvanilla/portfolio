@@ -458,6 +458,9 @@ body {
   flex-direction: column;
 }
 .section:nth-child(9) h2 {
+  font-family: "Purple Purse", serif;
+  font-weight: 400;
+  font-style: normal;
   position: absolute;
   top: 3%;
   font-size: 50px;
@@ -473,6 +476,7 @@ body {
   position: relative;
   box-sizing: border-box;
   border-right: 1px solid #666666;
+  border-bottom: 1px solid #666666;
 }
 .section:nth-child(9) .product .pdc_img {
   width: 520px;
@@ -484,26 +488,55 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.section:nth-child(9) .product .prouduct_txt3 {
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  font-family: "D2Coding", sans-serif;
+  font-weight: 400;
+}
 .section:nth-child(9) .product .prouduct_txt {
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
   position: absolute;
   width: 100%;
+  height: 120px;
   bottom: 0;
   display: flex;
   flex-direction: column;
-  background-color: rgba(223, 223, 223, 0.4745098039);
-  padding: 7px 18px;
+  background-color: rgba(248, 248, 248, 0.662745098);
+  padding: 10px 18px;
   text-align: left;
   color: #666666;
   box-sizing: border-box;
 }
 .section:nth-child(9) .product .prouduct_txt p {
+  margin-bottom: 10px;
   font-size: 10px;
+  font-family: "D2Coding", sans-serif;
+  font-weight: 400;
 }
 .section:nth-child(9) .product .prouduct_txt h5 {
+  margin-bottom: 10px;
   font-size: 17px;
+  font-family: "D2Coding", sans-serif;
+  font-weight: 400;
 }
 .section:nth-child(9) .product .prouduct_txt h6 {
+  margin-bottom: 10px;
   font-size: 18px;
+  font-family: "D2Coding", sans-serif;
+  font-weight: 400;
   color: #555555;
 }
 .section:nth-child(9) .product .prouduct_txt .btn_box {
@@ -511,7 +544,9 @@ body {
   gap: 5px;
 }
 .section:nth-child(9) .product .prouduct_txt .btn_box .btn {
-  width: 31px;
+  width: 37px;
+  height: 18px;
+  line-height: 1.8em;
   font-size: 10px;
   color: #fff;
   text-align: center;
@@ -526,8 +561,30 @@ body {
 .section:nth-child(9) .product .prouduct_txt .btn_box .btn:nth-child(3) {
   background-color: #9F9F9F;
 }
-.section:nth-child(9) .product:nth-child(3) {
-  border: none;
+.section:nth-child(9) .product .prouduct_txt .btn_box .renewal {
+  width: 45px;
+  height: 18px;
+  line-height: 1.8em;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  padding: 0 2px;
+  background: #D681AD;
+}
+.section:nth-child(9) .product:hover .prouduct_txt {
+  opacity: 1;
+}
+.section:nth-child(9) .product:hover .prouduct_txt3 {
+  opacity: 1;
+}
+.section:nth-child(9) .product:nth-child(3),
+.section:nth-child(9) .product:nth-child(6) {
+  border-right: none;
+}
+.section:nth-child(9) .product:nth-child(4),
+.section:nth-child(9) .product:nth-child(5),
+.section:nth-child(9) .product:nth-child(6) {
+  border-bottom: none;
 }
 
 .section:nth-child(10) {
