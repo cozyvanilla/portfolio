@@ -455,10 +455,13 @@ body {
 
 // 수정중 
 .section {  
-    &:nth-child(9) { 
+    &:nth-child(9) {
+        position: relative; 
         display: flex;
         flex-direction: column;
         h2 {
+            position: absolute;
+            top: 3%;
             font-size: 50px;
             color: #666666;
             margin-bottom: 20px;
