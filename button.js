@@ -1,5 +1,5 @@
 
-    window.onload = function() {
+  window.onload = function() {
         const form = document.getElementById("inquiryForm");
         const popup = document.getElementById("popup");
         const submitBtn = document.getElementById("submitBtn");
@@ -18,3 +18,4 @@
             console.error("필요한 요소들이 하나 이상 없습니다.");
         }
     };
+
