@@ -323,11 +323,45 @@
                         </div>
                     </div>
                 </div>
-              
+
         </div>
         </div>
         <div class="section">
-            섹션-10
+            <div class="inquiry width">
+                <h2>INQUIRY</h2>
+                <h3>협업 / 구매 문의하기</h3>
+                <div class="inquiry_txt">
+                <form action="/submit" method="post">
+                    <ul>
+                        <li>
+                    <label for="username"></label>
+                    <input type="text" id="username" name="username" placeholder="이름/Name">
+                        </li>
+                        <li>
+                    <label for="selectbox" class="Sbox">문의유형</label>
+                    <select id="selectbox">
+                        <option value="none">▼ 문의유형/Inquiry type</option>
+                        <option value="협업문의">협업문의</option>
+                        <option value="구매문의">구매문의</option>
+                        <option value="전시문의">전시문의</option>
+                    </select>
+                    </li>
+                    <li>
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="이메일/E-mail">
+                    </li>
+
+                    <li>
+                    <label for="content">내용</label>
+                    <textarea id="content" cols="50" rows="5">
+                        내용/Detail
+                    </textarea>
+                    </li>
+
+                    </ul>
+                </form>
+                </div>
+            </div>
         </div>
         <div class="section">
             섹션-11

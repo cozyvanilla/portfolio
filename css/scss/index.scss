@@ -453,7 +453,6 @@ body {
     } 
 }// 인터뷰
 
-// 수정중 
 .section {  
     &:nth-child(9) {
         position: relative; 
@@ -597,14 +596,77 @@ body {
             border-bottom: none;
         }
     }
-}
-
-
-//  아트컬렉션
+}//  아트컬렉션
 
 .section {  
-    &:nth-child(10) {background-color: #00c3ff; } 
-}// 하늘 계열
+    &:nth-child(10) {background-color: #ffffff; 
+    position: relative;
+        
+
+    .inquiry {
+        h2 {
+            position: absolute;
+            color: #ffffff;
+            top: 3%;
+            left: 0;
+            width: 100%;
+            height: 44px;
+            background: #CBC0D3;
+            font-size: 32px;
+            font-family: "국립박물관", sans-serif ;
+            font-weight: 500;
+            letter-spacing: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top: 5px solid #A294AC;
+            border-bottom: 5px solid #A294AC;
+        }
+
+        h3 {
+            font-family: "NoonnuBasicGothicRegular", sans-serif;
+            font-weight: normal;
+            font-size: 32px;
+            color: #666666;
+            line-height: 1.5em;
+        }
+                .inquiry_txt {
+                    font-family: 'D2Coding', sans-serif;
+                    font-weight: 400;
+                    li {
+                        list-style: none;
+                    } 
+                    #username {
+                        width: 500px;
+                        height: 40px;
+                        font-size: 20px;
+                        color: #666666;
+                        border: 2px solid #666666;
+                    }
+        
+                    #selectbox {
+                        right: 20px;
+                        float: right;
+                    }
+                    .Sbox {
+                        width: 0;
+                        height: 0;
+                        line-height: 0;
+                        overflow: hidden;
+                        position: absolute;
+                        text-indent: -9999px;
+                        // 블라인드
+                    }
+                    
+                }
+                }
+                }
+                li:nth-child(1), 
+                li:nth-child(2) {
+                display: inline-block;
+                        }
+                }
+                // 문의하기
 
 .section {  
     &:nth-child(11) { background-color: #690000; } 
