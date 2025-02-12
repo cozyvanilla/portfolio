@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/css/animate.css">
     <link rel="stylesheet" href="/css/css/index.css">
-    <script src="/button.js"></script>
     <script src="/js.js/section.js"></script>
+    <script src="/js.js/button.js"></script>
     <title>Document</title>
 </head>
 
@@ -308,7 +308,7 @@
                         </div>
                     </div>
                 </div>
-            
+
                 <div class="product">
                     <div class="pdc_img">
                         <img src="/img/product06.jpg" alt="">
@@ -325,40 +325,46 @@
                     </div>
                 </div>
 
-        </div>
+            </div>
         </div>
         <div class="section">
             <div class="inquiry width">
                 <h2>INQUIRY</h2>
                 <h3>협업 / 구매 문의하기</h3>
                 <div class="inquiry_txt">
-                <form action="/submit" method="post" class="formbox" id="inquiryForm">
-                    <ul>
-                        <li>
-                    <label for="username"></label>
-                    <input type="text" id="username" name="username" placeholder="이름/Name">
-                        </li>
-                        <li>
-                    <label for="selectbox" class="Sbox">문의유형</label>
-                    <select id="selectbox">
-                        <option value="none">▼ 문의유형/Inquiry type</option>
-                        <option value="협업문의">협업문의</option>
-                        <option value="구매문의">구매문의</option>
-                        <option value="전시문의">전시문의</option>
-                    </select>
-                    </li>
-                    <li>
-                    <label for="email"></label>
-                    <input type="email" id="email" name="email" placeholder="이메일/E-mail">
-                    </li>
+                    <form action="/submit" method="post" class="formbox" id="inquiryForm">
+                        <ul>
+                            <li>
+                                <label for="username"></label>
+                                <input type="text" id="username" name="username" placeholder="이름/Name">
+                            </li>
+                            <li>
+                                <label for="selectbox" class="Sbox">문의유형</label>
+                                <select id="selectbox">
+                                    <option value="none">▼ 문의유형/Inquiry type</option>
+                                    <option value="협업문의">협업문의</option>
+                                    <option value="구매문의">구매문의</option>
+                                    <option value="전시문의">전시문의</option>
+                                </select>
+                            </li>
+                            <li>
+                                <label for="email"></label>
+                                <input type="email" id="email" name="email" placeholder="이메일/E-mail">
+                            </li>
 
-                    <li>
-                    <label for="content" class="Cbox">내용</label>
-                    <textarea id="content" cols="120" rows="15" placeholder="내용/detail"></textarea>
-                    </li>
-                    </ul>
-                </form>
-                <button type="submit" class="btn">submit</button>
+                            <li>
+                                <label for="content" class="Cbox">내용</label>
+                                <textarea id="content" cols="120" rows="15" placeholder="내용/detail"></textarea>
+                            </li>
+                        </ul>
+                    </form>
+                    <div id="popup">
+                        <img src="img/check.png" alt="check">
+                        <h1>제출 완료되었습니다.</h1>
+                        <p class="popup_txt">처리 결과는 전시회알림톡으로 안내드립니다.<br><br>문의해주셔서 감사합니다.</p>
+                        <p class="button"><button id="closePopup">CLOSE X</button></p>
+                    </div>
+                    <button type="button" class="btn" id="submitBtn">submit</button>
                 </div>
                 <div class="inquiry_icon">
                     <ul>
@@ -372,12 +378,7 @@
                         </li>
                     </ul>
                 </div>
-                <div id="popup">
-                    <img src="img/check.png" alt="check">
-                    <h1>제출 완료되었습니다.</h1>
-                    <p class="popup_txt">처리 결과는 전시회알림톡으로 안내드립니다.<br><br>문의해주셔서 감사합니다.</p>
-                    <p class="button"><button id="closePopup">CLOSE X</button></p>
-                </div>
+
             </div>
         </div>
         <div class="section">

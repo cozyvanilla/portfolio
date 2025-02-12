@@ -690,6 +690,51 @@ body {
   right: 0;
   margin-top: 20px;
 }
+.section:nth-child(10) .inquiry .inquiry_txt #popup {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 800px;
+  height: 310px;
+  background: #E2DBE8;
+  padding: 20px;
+  z-index: 99999;
+  border-radius: 50px;
+  transition: opacity 0.3s ease-in-out;
+}
+.section:nth-child(10) .inquiry .inquiry_txt #popup h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.section:nth-child(10) .inquiry .inquiry_txt #popup .popup_txt {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #666666;
+}
+.section:nth-child(10) .inquiry .inquiry_txt #popup img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 30px;
+}
+.section:nth-child(10) .inquiry .inquiry_txt #popup .button {
+  text-align: right;
+}
+.section:nth-child(10) .inquiry .inquiry_txt #popup button {
+  background: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  color: #666666;
+  border: none;
+  font-size: 17px;
+}
+.section:nth-child(10) .inquiry .inquiry_txt #popup button:hover {
+  background: #666666;
+  color: #fff;
+}
 .section:nth-child(10) .inquiry .inquiry_icon {
   margin-top: 100px;
 }
@@ -708,50 +753,6 @@ body {
 .section:nth-child(10) .inquiry .inquiry_icon ul li img {
   width: 40px;
   height: 40px;
-}
-.section:nth-child(10) .inquiry #popup {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 800px;
-  height: 310px;
-  background: #E2DBE8;
-  padding: 20px;
-  z-index: 99999;
-  border-radius: 50px;
-}
-.section:nth-child(10) .inquiry #popup h1 {
-  color: #fff;
-  font-size: 40px;
-  margin-bottom: 20px;
-}
-.section:nth-child(10) .inquiry #popup .popup_txt {
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: #666666;
-}
-.section:nth-child(10) .inquiry #popup img {
-  width: 70px;
-  height: 70px;
-  margin-bottom: 30px;
-}
-.section:nth-child(10) .inquiry #popup .button {
-  text-align: right;
-}
-.section:nth-child(10) .inquiry #popup button {
-  background: #fff;
-  padding: 10px;
-  border-radius: 50px;
-  color: #666666;
-  border: none;
-  font-size: 17px;
-}
-.section:nth-child(10) .inquiry #popup button:hover {
-  background: #666666;
-  color: #fff;
 }
 .section li:nth-child(1),
 .section li:nth-child(2) {
