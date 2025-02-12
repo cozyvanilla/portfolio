@@ -45,4 +45,14 @@ window.onload = function() {
             window.scrollTo({ top: moveTop, left: 0, behavior: 'smooth' });
         });
     });
+
 }
+
+
+
+        
+
+    
+
+
+
