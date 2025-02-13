@@ -204,7 +204,6 @@ body {
   line-height: 1.4em;
 }
 .section:nth-child(3) .art1_txt p {
-  font-family: "D2Coding", sans-serif;
   font-weight: 400;
   font-size: 20px;
   text-align: left;
@@ -265,7 +264,6 @@ body {
   line-height: 1.4em;
 }
 .section:nth-child(4) .art2_txt p {
-  font-family: "D2Coding", sans-serif;
   font-weight: 400;
   font-size: 20px;
   text-align: left;
@@ -326,7 +324,6 @@ body {
   line-height: 1.4em;
 }
 .section:nth-child(5) .art3_txt p {
-  font-family: "D2Coding", sans-serif;
   font-weight: 400;
   font-size: 20px;
   text-align: left;
@@ -398,7 +395,6 @@ body {
 }
 .section:nth-child(7) .reviewbox .review-text p {
   width: 100%;
-  font-family: "D2Coding", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.5rem;
@@ -427,8 +423,8 @@ body {
 }
 .section:nth-child(8) .interview .interview_box .interview_txt {
   width: 720px;
-  height: 640px;
-  padding: 50px;
+  height: 670px;
+  padding: 40px;
   background: #f8f7f7;
   text-align: left;
 }
@@ -437,18 +433,17 @@ body {
   width: 100%;
   align-items: center;
   gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .section:nth-child(8) .interview .interview_box .interview_txt .subject img {
   width: 40px;
   height: 40px;
 }
 .section:nth-child(8) .interview .interview_box .interview_txt .subject h5 {
-  font-family: "D2Coding", sans-serif;
   font-weight: 700;
-  font-size: 23px;
+  font-size: 21px;
   color: #666666;
-  line-height: 1.4rem;
+  line-height: 1em;
   margin-top: 10px;
 }
 .section:nth-child(8) .interview .interview_box .interview_txt p {
@@ -510,7 +505,6 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
-  font-family: "D2Coding", sans-serif;
   font-weight: 400;
 }
 .section:nth-child(9) .product .prouduct_txt {
@@ -531,19 +525,16 @@ body {
 .section:nth-child(9) .product .prouduct_txt p {
   margin-bottom: 10px;
   font-size: 10px;
-  font-family: "D2Coding", sans-serif;
   font-weight: 400;
 }
 .section:nth-child(9) .product .prouduct_txt h5 {
   margin-bottom: 10px;
   font-size: 17px;
-  font-family: "D2Coding", sans-serif;
   font-weight: 400;
 }
 .section:nth-child(9) .product .prouduct_txt h6 {
   margin-bottom: 10px;
   font-size: 18px;
-  font-family: "D2Coding", sans-serif;
   font-weight: 400;
   color: #555555;
 }
@@ -602,7 +593,7 @@ body {
 .section:nth-child(10) .inquiry h2 {
   position: absolute;
   color: #ffffff;
-  top: 2%;
+  top: 4%;
   left: 0;
   width: 100%;
   height: 44px;
@@ -623,7 +614,7 @@ body {
   font-size: 32px;
   color: #666666;
   line-height: 1.5em;
-  margin-bottom: 30px;
+  margin: 50px 0;
 }
 .section:nth-child(10) .inquiry .inquiry_txt {
   position: relative;
@@ -736,7 +727,7 @@ body {
   color: #fff;
 }
 .section:nth-child(10) .inquiry .inquiry_icon {
-  margin-top: 100px;
+  margin-top: 90px;
 }
 .section:nth-child(10) .inquiry .inquiry_icon ul {
   display: flex;
@@ -760,5 +751,14 @@ body {
 }
 
 .section:nth-child(11) {
-  background-color: #690000;
+  background-color: #55526D;
+  font-size: 23px;
+}
+.section:nth-child(11) footer p {
+  color: #B5B5B5;
+}
+.section:nth-child(11) footer b {
+  color: #ffffff;
+  display: block;
+  margin-top: 15%;
 }
